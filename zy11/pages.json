@@ -1,0 +1,65 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path" : "pages/AI/AI",
+			"style" : 
+			{
+				"navigationBarTitleText" : "AI问诊"
+			}
+		},
+		{
+			"path" : "pages/activityCenter/activityCenter",
+			"style" : 
+			{
+				"navigationBarTitleText" : "中医活动中心",
+				 "enablePullDownRefresh":  true
+			}
+		},		
+		{
+			"path" : "pages/my/my",
+			"style" : 
+			{
+				"navigationBarTitleText" : "个人中心"
+			}
+		},
+		{
+			"path" : "pages/TCM_Circle/TCM_Circle",
+			"style" : 
+			{
+				"navigationBarTitleText" : "中医圈"
+			}
+		}
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	
+	"tabBar": {
+		    "color": "#000000",
+		    "selectedColor": "#f069bd",
+		    "borderStyle": "black",
+		    "backgroundColor": "#F8F8F8",
+		    "list": [{
+		        "pagePath": "pages/AI/AI",
+		        "iconPath": "static/AI.png",
+		        "selectedIconPath": "static/AI.png",
+		        "text": "AI问诊"
+		    },{
+		        "pagePath": "pages/TCM_Circle/TCM_Circle",
+		        "iconPath": "static/TCM.jpg",
+		        "selectedIconPath": "static/TCM.jpg",
+		        "text": "中医圈"
+		    }, {
+		        "pagePath": "pages/my/my",
+		      "iconPath": "static/my.png",
+		      "selectedIconPath": "static/my.png",
+		        "text": "个人中心"
+		    }]
+		}
+	
+}

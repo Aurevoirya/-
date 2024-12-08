@@ -1,0 +1,14 @@
+{
+  "name": "AI",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  },
+   "dependencies": {
+      "axios": "^0.26.0"  // 确保使用适合你的Node.js版本的axios版本
+    },
+    "devDependencies": {},
+    "engines": {
+      "node": ">=14.0.0"  // 根据你的云服务平台支持的Node.js版本调整
+    }
+}
