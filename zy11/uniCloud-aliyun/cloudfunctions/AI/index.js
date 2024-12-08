@@ -81,7 +81,7 @@ exports.handler = async (event, context) => {
     const data = {
         max_tokens: 4100,
         top_k: 4,
-        temperature: 0.5,1
+        temperature: 0.5,1 
         messages: [
             {
                 role: "system",
